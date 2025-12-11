@@ -8,3 +8,17 @@ Zadaniem jest rozbudowanie silnika testowego Test Engine z wykładu.
 * Ładne wyświetlanie nazwy Test Engine'a jako ASCII ART oraz informacji o testach przed wykonaniem.
 * Czytelne wyświetlanie informacji o wynikach wszystkich testów. Opcjonalnie: pokazywanie postępów wykonywania testów.
 * Przygotowanie zestawu przykładowych testów wraz ze skryptami uruchomieniowymi, pokazującymi działanie TestEngine'a.
+
+### Uruchamianie
+
+Na Windows:
+
+```
+gradlew.bat build
+java -cp build/classes/java/main uj.wmii.pwj.anns.MyTestEngine uj.wmii.pwj.anns.MyBeautifulTestSuite
+```
+Na Linux/Mac:
+```
+./gradlew build
+java -cp build/classes/java/main uj.wmii.pwj.anns.MyTestEngine uj.wmii.pwj.anns.MyBeautifulTestSuite
+```
